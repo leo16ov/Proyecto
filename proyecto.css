@@ -1,0 +1,26 @@
+body{
+    font-family: Arial;
+    background-color: aliceblue;
+}
+
+.menu{
+    list-style: none; /* Quita los puntos que tiene el Listado por estilo*/
+    background: rgb(48, 48, 48);
+    width: 70%; /* Es para que el largo de background sea del '90%' de la Web*/
+    max-width: 1000px;
+    margin: auto; 
+    text-align: center; /* Centra el texto del background */
+}
+.menu li a{
+    text-decoration: none; /* Quita la decoracion/efecto que tiene un enlasado */
+    color: white;
+    padding: 20px; /* Es para que el espacio del background sea de '20px' */
+    display: block; /* Es para convertir cada etiqueta en un Bloque  */
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a:hover/* la propiedad ':hover' sirve de resaltador para cada uno
+                   de los bloques*/{
+    background: cadetblue;
+}
