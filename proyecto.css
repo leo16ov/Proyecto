@@ -33,5 +33,5 @@ body{
 
   background: rgb(58, 58, 58);/*DATO: los tipos de backgrounds tienen que ser los mismo para que se puedan 
                             alternar estos, Ejemplo: 'background-color:' Y 'background-color:', sino no lo alterna*/
-  
+  color:rgb(0, 204, 255);
 }
