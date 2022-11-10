@@ -1,19 +1,23 @@
 body{
     font-family: Arial;
-    width: 100%;
+    width: 99%;
     height: 100vh; /* Importante poner "width:100%;" y "height: 100vh;" antes de un
                  "background: linear-gradient" para que asi el background no sea chico y no se repita. */
     background: linear-gradient(45deg, rgb(0, 140, 175), rgb(31, 184, 204), rgb(0, 216, 245), rgb(201, 247, 255));
 }
+#logocreaciones{
+    translate: -14vh;
+}
 .menu{
     list-style: none; /* Quita los puntos que tiene el Listado por estilo*/
-    background: rgb(48, 48, 48);
+    background: black;
     width: 60%; /* Es para que el largo de background sea del '60%' de la Web*/
     max-width: 1000px;
     margin: auto; 
     text-align: center; /* Centra el texto del background */
 }
 .menu li a{
+    font-size: 2.7vh;
     text-decoration: none; /* Quita la decoracion/efecto que tiene un enlasado */
     color: white;
     padding: 20px; /* Es para que el espacio del background sea de '20px' */
@@ -24,13 +28,22 @@ body{
 }
 .menu li a:hover/* la propiedad ':hover' sirve de resaltador para cada uno
                    de los bloques*/{
-    background: rgba(1, 204, 240, 0.938);
+    background: white;
+    color: black;
 }
 #posicionmodoscuro{
     translate: 189vh;
+    background: black;
+    color: white;
 }
+#posicionmodoscuro:hover{
+    background: white;
+    color: black;
+    border: 0px;
+}
+
 .oscurecer{
-  background: rgb(58, 58, 58);/*DATO: los tipos de backgrounds tienen que ser los mismo para que se puedan 
+  background: rgb(20, 20, 20);/*DATO: los tipos de backgrounds tienen que ser los mismo para que se puedan 
                             alternar estos, Ejemplo: 'background-color:' Y 'background-color:', sino no lo alterna*/
-  color:rgb(0, 204, 255);
+  color: white;
 }
