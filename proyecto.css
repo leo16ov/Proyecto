@@ -1,19 +1,21 @@
 body{
+    font-size: large;
     font-family: Arial;
     width: 99%;
-    height: 200vh; /* Importante poner "width:100%;" y "height: 100vh;" antes de un
+    height: 150vh; /* Importante poner "width:100%;" y "height: 100vh;" antes de un
                  "background: linear-gradient" para que asi el background no sea chico y no se repita. */
     background: linear-gradient(45deg, rgb(0, 140, 175), rgb(31, 184, 204), rgb(0, 216, 245), rgb(201, 247, 255));
 }
 #logocreaciones{
-    translate: -14vh;
+    translate: -13vh;
+
 }
 .menu{
     list-style: none; /* Quita los puntos que tiene el Listado por estilo*/
-    background: black;
+    background: rgb(46, 45, 43);
     width: 60%; /* Es para que el largo de background sea del '60%' de la Web*/
     max-width: 1000px;
-    margin: auto; 
+    margin: auto;
     text-align: center; /* Centra el texto del background */
 }
 .menu li a{
@@ -28,7 +30,7 @@ body{
 }
 .menu li a:hover/* la propiedad ':hover' sirve de resaltador para cada uno
                    de los bloques*/{
-    background: white;
+    background: orange;
     color: black;
 }
 #posicionmodoscuro{
