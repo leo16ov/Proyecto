@@ -54,35 +54,309 @@ h2{
     margin-top: 86px;
     font-size: 2.5rem;
 }
-.catalogo{
-    margin-top: 60px;
-    width: 433px;
-    height: auto;
-}
-.catalogo ul{
+
+.box{
     display: flex;
-    padding: 0;
-    width: 335%;
-    margin-left: 40px;
+    align-items: flex-end;
+    flex-wrap: wrap;
 }
-.catalogo li{
-    list-style: none;
-    width: 100%;
-}
-.img-cat{
+#img1{
+    width: 433px;
+    height: 577px;
+    margin: 30px;
+    margin-top: 70px;
+    background-image: url('assets/img1.jpg');
     position: relative;
+    overflow: hidden;
 }
-.img-cat::after{
-    content: "producto";
-    font-size: 2rem;
+#img1::after{
+    content: "Babuchas Hombre Rustico $1400 T2-T6";
+    font-size: 1.3rem;
     color: white;
     background-color: #16456198;
+    width: 433px;
     position: absolute;
     inset: 0;
     display: grid;
     place-items: center;
     transform: translateY(100%);
+    transition: transform .3s;
 }
-.img-cat:hover::after{
-    transform: translateY(0);
+#img1:hover::after{
+    transform: translateY(0%);
+}
+#img2{
+    width: 433px;
+    height: 577px;
+    margin: 30px;
+    margin-top: 70px;
+    background-image: url('assets/img2.jpg');
+    position: relative;
+    overflow: hidden;
+}
+#img2::after{
+    content: "Chomba algodon de Hombre $1700 T2-T6";
+    font-size: 1.3rem;
+    color: white;
+    background-color: #16456198;
+    width: 433px;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+}
+#img2:hover::after{
+    transform: translateY(0%);
+}
+#img3{
+    width: 433px;
+    height: 577px;
+    margin: 30px;
+    margin-top: 70px;
+    background-image: url('assets/img3.jpg');
+    position: relative;
+    overflow: hidden;
+}
+#img3::after{
+    content: "Bermudas Hombre Rustico $1100 T2-T6";
+    font-size: 1.3rem;
+    color: white;
+    background-color: #16456198;
+    width: 433px;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+}
+#img3:hover::after{
+    transform: translateY(0%);
+}
+#img4{
+    width: 433px;
+    height: 577px;
+    margin: 30px;
+    margin-top: 70px;
+    background-image: url('assets/img4.jpg');
+    position: relative;
+    overflow: hidden;
+}
+#img4::after{
+    content: "Pantalones Hombre Rustico $1500 T2-T6";
+    font-size: 1.3rem;
+    color: white;
+    background-color: #16456198;
+    width: 433px;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+}
+#img4:hover::after{
+    transform: translateY(0%);
+}
+#img5{
+    width: 433px;
+    height: 577px;
+    margin: 30px;
+    margin-top: 70px;
+    background-image: url('assets/img5.jpg');
+    position: relative;
+    overflow: hidden;
+}
+#img5::after{
+    content: "Pantalones de Fibrana $1600 T2-T10";
+    font-size: 1.3rem;
+    color: white;
+    background-color: #16456198;
+    width: 433px;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+}
+#img5:hover::after{
+    transform: translateY(0%);
+}
+#img6{
+    width: 433px;
+    height: 577px;
+    margin: 30px;
+    margin-top: 70px;
+    background-image: url('assets/img6.jpg');
+    position: relative;
+    overflow: hidden;
+}
+#img6::after{
+    content: "Babuchas Hombre Rustico $1700 T2-T6";
+    font-size: 1.3rem;
+    color: white;
+    background-color: #16456198;
+    width: 433px;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+}
+#img6:hover::after{
+    transform: translateY(0%);
+}
+#img7{
+    width: 433px;
+    height: 577px;
+    margin: 30px;
+    margin-top: 70px;
+    background-image: url('assets/img7.jpg');
+    position: relative;
+    overflow: hidden;
+}
+#img7::after{
+    content: "Pantalones de Modal $1200 T2-T8";
+    font-size: 1.3rem;
+    color: white;
+    background-color: #16456198;
+    width: 433px;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+}
+#img7:hover::after{
+    transform: translateY(0%);
+}
+#img8{
+    width: 433px;
+    height: 577px;
+    margin: 30px;
+    margin-top: 70px;
+    background-image: url('assets/img8.jpg');
+    position: relative;
+    overflow: hidden;
+}
+#img8::after{
+    content: "Pantalones de Morley $1300 T2-T8";
+    font-size: 1.3rem;
+    color: white;
+    background-color: #16456198;
+    width: 433px;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+}
+#img8:hover::after{
+    transform: translateY(0%);
+}
+#img9{
+    width: 433px;
+    height: 577px;
+    margin: 30px;
+    margin-top: 70px;
+    background-image: url('assets/img9.jpg');
+    position: relative;
+    overflow: hidden;
+}
+#img9::after{
+    content: "Remeras boton de Hombre $1700 T2-T6";
+    font-size: 1.3rem;
+    color: white;
+    background-color: #16456198;
+    width: 433px;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+}
+#img9:hover::after{
+    transform: translateY(0%);
+}
+#img10{
+    width: 433px;
+    height: 577px;
+    margin: 30px;
+    margin-top: 70px;
+    background-image: url('assets/img10.jpg');
+    position: relative;
+    overflow: hidden;
+}
+#img10::after{
+    content: "Remeras de Modal $1400 T4-T8";
+    font-size: 1.3rem;
+    color: white;
+    background-color: #16456198;
+    width: 433px;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+}
+#img10:hover::after{
+    transform: translateY(0%);
+}
+#img11{
+    width: 433px;
+    height: 577px;
+    margin: 30px;
+    margin-top: 70px;
+    background-image: url('assets/img11.jpg');
+    position: relative;
+    overflow: hidden;
+}
+#img11::after{
+    content: "Remeras de Mujer $800 T2-T8";
+    font-size: 1.3rem;
+    color: white;
+    background-color: #16456198;
+    width: 433px;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+}
+#img11:hover::after{
+    transform: translateY(0%);
+}
+#img12{
+    width: 433px;
+    height: 577px;
+    margin: 30px;
+    margin-top: 70px;
+    background-image: url('assets/img12.jpg');
+    position: relative;
+    overflow: hidden;
+}
+#img12::after{
+    content: "Saquitos Mujer tejido $1400 Unico Talle";
+    font-size: 1.3rem;
+    color: white;
+    background-color: #16456198;
+    width: 433px;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+}
+#img12:hover::after{
+    transform: translateY(0%);
 }
