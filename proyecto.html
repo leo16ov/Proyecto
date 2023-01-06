@@ -2,30 +2,48 @@
 <html>
 <head>
     <title>Creaciones Mily</title>
-    <button id="posicionmodoscuro" onclick="modoscuro()">Modo oscuro</button>
-    <img src="IMG-20221023-WA0002.jpg" alt="Logo Creaciones Mily" id="logocreaciones" width="77px">
-  
-    <h1 id="titulo">Creaciones Mily</h1>
-  
 
-<link rel="stylesheet" href="proyecto.css">
-<script src="proyecto.js"></script>
-
-</head>
-<body>
-<ul class="menu">
+    
+<div class="menu">
+    <a href="" id="logo">Creaciones Mily</a>
+ <ul>
     <li><a href="">Productos</a></li>
     <li><a href="#" onclick="Nrowhatsapp()">Whatsapp</a></li>
     <li><a href="https://www.google.com/maps/place/Galeria+La+Paloma/@-34.6091318,-58.4073561,17.22z/data=!4m5!3m4!1s0x0:0x4d780983a0d14c06!8m2!3d-34.6088732!4d-58.4054656" target="_blank">
         Sede: Galeria la paloma |Local 16
     </a></li>
     <li><a href="#" onclick="saludar()">Quienes somos</a></li>
+    <li>
+       <button id="posicionmodoscuro" onclick="modoscuro()">
+    <span class="material-symbols-outlined" >
+    dark_mode
+    </span>
+      </button>
+        </li>
+    
  </ul>
- <h2>Mas informacion y aclaracion de las ventas</h2>
- <p>Los precios que aparecen en la seccion Catalogo son los precios por Menor, se hacen precios Mayoristas a partir de la compra de dos prendas. No se hacen devoluciones</p> 
- <p>ACLARACION: Esta Pagina Solo existe para echar un vistazo al Catalogo y lo que tiene disponible. Estamos en Bartolomé Mitre 2766, C1031 CABA| Galeria la paloma| Local 16</p>
  
- <h2> Catalogo </h2>
+</div>
+
+  
+    
+  
+
+</head>
+<body>
+
+
+ <div class="boxcontenedor">
+ <h2>Informacion y Aclaraciones</h2>
+  <div>
+    <p>Los precios que aparecen en la seccion Catalogo son los precios por Menor, se hacen precios Mayoristas a partir de la compra de dos prendas. No se hacen devoluciones
+ ACLARACION: Esta Pagina Solo existe para echar un vistazo al Catalogo y lo que tiene disponible. Estamos en Bartolomé Mitre 2766, C1031 CABA| Galeria la paloma| Local 16
+    </p>  
+  </div>
+
+ </div>
+
+ <h2 id="catalogo"> Catalogo </h2>
 
 <div class="box">
     <div id="img1"></div>
@@ -41,7 +59,10 @@
     <div id="img11"></div>
     <div id="img12"></div>
 </div>
- 
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="proyecto.css">
+<script src="proyecto.js"></script>
 
 </body>
 </html>
